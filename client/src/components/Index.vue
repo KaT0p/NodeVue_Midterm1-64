@@ -11,7 +11,7 @@
       <div v-for="user in users" v-bind:key="user.id">
         <p>id: {{ user.id }}</p>
         <p>ยี่ห้อ: {{ user.name }} - {{ user.lastname }}</p>
-        <p>รุ่น: {{ user.email }}</p>
+        <p>รุ่นนาฬิกา: {{ user.email }}</p>
         <p>ราคา: {{ user.password }}</p>
         <p>
           <button v-on:click="navigateTo('/user/' + user.id)">
