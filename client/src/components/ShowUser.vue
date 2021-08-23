@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Watch</h1>
-    <p>ID: {{ userId }}</p>
+    <p>ID: {{ user.id }}</p>
     <p>ยี่ห้อ {{ user.lastname }}</p>
     <p>รุ่นนาฬิกา: {{ user.email }}</p>
     <p>ราคา: {{ user.password }}</p>
