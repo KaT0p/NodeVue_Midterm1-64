@@ -2,7 +2,7 @@
   <div>
     <h1>Watch</h1>
     <p>ID: {{ userId }}</p>
-    <p>ยี่ห้อ {{ user.name }} - {{ user.lastname }}</p>
+    <p>ยี่ห้อ {{ user.lastname }}</p>
     <p>รุ่นนาฬิกา: {{ user.email }}</p>
     <p>ราคา: {{ user.password }}</p>
   </div>

@@ -2,7 +2,7 @@
 <div>
     <h1>Edit Watch</h1>
     <form v-on:submit.prevent = "editUser">
-        <p>ID: <input type="text" v-model="user.name"></p>
+        
         <p>ยี่ห้อ: <input type="text" v-model="user.lastname"></p>
         <p>รุ่นนาฬิกา: <input type="text" v-model="user.email"></p>
         <p>ราคา: <input type="text" v-model="user.password"></p>
@@ -10,7 +10,7 @@
     </form>
     <hr>
     <div>
-        <p>ID: {{user.name}}</p>
+        
         <p>ยี่ห้อ: {{user.lastname}}</p>
         <p>รุ่นนาฬิกา: {{user.email}}</p>
         <p>ราคา: {{user.password}}</p>
